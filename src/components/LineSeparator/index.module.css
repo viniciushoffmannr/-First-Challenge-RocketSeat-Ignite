@@ -1,0 +1,11 @@
+.lineContainer {
+  margin-top: 1.6rem;
+}
+
+.line {
+  margin: 0px;
+  background: var(--gray-500);
+  width: 100%;
+  border: 0px;
+  height: 2px;
+}

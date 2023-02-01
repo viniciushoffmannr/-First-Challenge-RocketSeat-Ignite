@@ -1,0 +1,17 @@
+.counterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gray-500);
+  color: var(--white);
+  height: 19px;
+  width: 25px;
+  left: 114px;
+  top: 0px;
+  border-radius: 999px;
+  padding: 2px 8px 2px 8px;
+}
+
+.counterComponent {
+  font-size: 12px;
+}

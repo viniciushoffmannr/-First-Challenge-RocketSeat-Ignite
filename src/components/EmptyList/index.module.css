@@ -1,0 +1,25 @@
+.emptyListContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 4rem;
+}
+
+.clipBoard {
+  width: 56px;
+  height: 56px;
+  color: var(--gray-400);
+}
+
+.texts {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: var(--gray-300);
+}
+
+.firstText {
+  font-weight: bold;
+}

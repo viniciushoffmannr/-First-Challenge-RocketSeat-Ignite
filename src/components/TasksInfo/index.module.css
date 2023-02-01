@@ -1,0 +1,28 @@
+.tasksInfoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  max-width: 736px;
+  width: 100%;
+}
+
+.tasksInfoComponents {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.tasksInfoTasksContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+#tasksInfoCreatedTasksText {
+  color: var(--blue);
+}
+
+#tasksInfoCompletedTasksText {
+  color: var(--purple);
+}
